@@ -5,47 +5,49 @@
 	<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.8/dist/semantic.min.js"></script>	
 </head>
 <body>
-	<h1 class="ui header orange">PlatypusMuertes Atlas Server Info</h1>
-	<div class="ui segment">
-		<p>This is a community whitelisted server. For more information visit <a href="https://discord.platypusmuerte.com">our discord</a>.</p>
-	</div>
-	<h2 class="ui header orange">How To Add Player</h2>
-	<div class="ui segment">
-		<p>Edit the whitelist.js file, and add a new JSON object for the new player.</p>
-		<div class="ui steps">
-			<div class="step">
-				<pre>
-					{
-						"steam_id":"0000000000",
-						"name":"discord name here",
-						"allowed":"1",
-						"notes":"your name here so I know who added them, and any notes."
-					}
-				</pre>
+	<div class="ui raised very padded text container segment">
+		<h1 class="ui header orange">PlatypusMuertes Atlas Server Info</h1>
+		<div class="ui segment">
+			<p>This is a community whitelisted server. For more information visit <a href="https://discord.platypusmuerte.com">our discord</a>.</p>
+		</div>
+		<h2 class="ui header orange">How To Add Player</h2>
+		<div class="ui segment">
+			<p>Edit the whitelist.js file, and add a new JSON object for the new player.</p>
+			<div class="ui steps">
+				<div class="step">
+					<pre>
+						{
+							"steam_id":"0000000000",
+							"name":"discord name here",
+							"allowed":"1",
+							"notes":"your name here so I know who added them, and any notes."
+						}
+					</pre>
+				</div>
+			</div>
+			<p>Be sure to add a comma when adding new JSON objects. The result should look like this: ( notice the , between },{ )</p>
+			<div class="ui steps">
+				<div class="step">
+					<pre>
+						{
+							"steam_id":"1234567",
+							"name":"discord name here",
+							"allowed":"1",
+							"notes":"your name here so I know who added them, and any notes."
+						},{
+							"steam_id":"456789",
+							"name":"discord name here",
+							"allowed":"1",
+							"notes":"your name here so I know who added them, and any notes."
+						}
+					</pre>
+				</div>
 			</div>
 		</div>
-		<p>Be sure to add a comma when adding new JSON objects. The result should look like this: ( notice the , between },{ )</p>
-		<div class="ui steps">
-			<div class="step">
-				<pre>
-					{
-						"steam_id":"1234567",
-						"name":"discord name here",
-						"allowed":"1",
-						"notes":"your name here so I know who added them, and any notes."
-					},{
-						"steam_id":"456789",
-						"name":"discord name here",
-						"allowed":"1",
-						"notes":"your name here so I know who added them, and any notes."
-					}
-				</pre>
-			</div>
+		<h2 class="ui header orange">How To Remove A Players Access</h2>
+		<div class="ui segment">
+			<p>Edit the whitelist.js file, and change their allowed value from 1 to 0</p>
 		</div>
-	</div>
-	<h2 class="ui header orange">How To Remove A Players Access</h2>
-	<div class="ui segment">
-		<p>Edit the whitelist.js file, and change their allowed value from 1 to 0</p>
 	</div>
 </body>
 </html>
