@@ -2,7 +2,7 @@ let whitelist = [
 	{
 		"steam_id":"76561198226171656",
 		"name":"platy",
-		"allowed":"1",
+		"allowed":"0",
 		"notes":""
 	},{
 		"steam_id":"76561198299184251",
