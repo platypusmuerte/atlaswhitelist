@@ -110,7 +110,7 @@ let whitelist = [
 		"allowed":"1",
 		"notes":""
 	},{
-		"steam_id":"01",
+		"steam_id":"76561198046903683",
 		"name":"partywithtibbers",
 		"allowed":"1",
 		"notes":"ambrosfox"
