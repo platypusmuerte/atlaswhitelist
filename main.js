@@ -11,8 +11,8 @@ class PlatyAtlasWhiteList {
 
 	checksid() {
 		// https://steamcommunity.com/sharedfiles/filedetails/?id=1628872141
-		// atlas mod expects response of {"steam_id":"PLAYERS-STEAM-ID","allowed":"0"} format
-		// 
+		// Atlas mod expects response of {"steam_id":"PLAYERS-STEAM-ID","allowed":"0"} format
+		// Use this url in mod settings: https://platypusmuerte.github.io/atlaswhitelist/
 		const player = this.wl.filter(p => p.steam_id == this.sp.steam_id);
 		
 		if(player[0] && player[0].steam_id == this.sp.steam_id) {
