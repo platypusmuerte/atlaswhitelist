@@ -7,7 +7,7 @@ let whitelist = [
 	},{
 		"steam_id":"76561198299184251",
 		"name":"bt",
-		"allowed":"0",
+		"allowed":"1",
 		"notes":"pta"
 	},{
 		"steam_id":"76561198847485460",
